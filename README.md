@@ -1,18 +1,24 @@
-Engeto: Project 1
-První program na online python akademii od Engeta. Tento program je psán na základě zkušeností nabraných za 1 měsíc studia python Akademie.
+>Engeto: Project 1
+>První projekt pro akademii od Engeta. Tento program je psán na základě zkušeností nabraných za 2 měsíce studia Python Akademie.
+
+**Textový analyzátor s pomocí funkcí**
+------------------------------------------
 
 Popis zadání
-Tento program slouží k analyzování textů, kde uživatel má na vyběr 1 ze tří možností. Tyto texty jsou dostupné zde
+Tento program slouží k analyzování textů, kde uživatel má na vyběr 1 ze tří možností.
+- Vyžádá si od uživatele přihlašovací jméno a heslo.
+- Kód verifikuje, zda je uživatel registrovaný a zda zadal správné heslo. 
+- Pokud je uživatel registrovaný, pozdraví jej a umožní mu analyzovat texty. Pokud není, upozorni jej a ukonči program.
+- Výběr textu: Umožňuje uživateli vybrat jeden ze tří předdefinovaných textů z proměnné TEXTS pomocí číselného vstupu.
+- Kontroluje, zda zadané číslo odpovídá počtu dostupných textů, pokud vybere nevhodné- program jej upozorní a uživatel může znovu vybrat jeden z textů.
+- Program úspěšně analyzuje vybraný text, identifikuje a počítá různé typy slov a číselné řetězce, a sčítá numerické hodnoty.
 
-Vyžádá si od uživatele přihlašovací jméno a heslo.
-Zjistí, jestli zadané údaje odpovídají někomu z registrovaných uživatelů v předem definovaném slovníku.
-Pokud je uživatel registrovaný, pozdrav jej a umožni mu analyzovat texty. Pokud není, upozorni jej a ukonči program.
-Program nechá uživatel vybrat mezi třemi texty, uloženými v proměnné TEXTS. Pokud uživatel vybere takové číslo textu, které není v zadání, program jej upozorní a skončí. Pokud uživatel zadá jiný vstup než číslo, program jej rovněž upozorní a skončí.
 Pro vybraný text spočítá následující statistiky:
-počet slov,
-počet slov začínajících velkým písmenem,
-počet slov psaných velkými písmeny,
-počet slov psaných malými písmeny,
-počet čísel (ne cifer),
-sumu všech čísel (ne cifer) v textu.
-Program zobrazí jednoduchý sloupcový graf, který bude reprezentovat četnost různých délek slov v textu. Například takto:
+- Počet slov.
+- Počet slov začínajících velkým písmenem.
+- Počet slov psaných velkými písmeny.
+- Počet slov psaných malými písmeny.
+- Počet čísel (ne cifer).
+- Sumu všech čísel (ne cifer) v textu.
+  
+Program zobrazí jednoduchý sloupcový graf, který bude reprezentovat četnost různých délek slov v textu.
